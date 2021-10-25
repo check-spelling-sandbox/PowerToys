@@ -33,6 +33,7 @@ jobs:
       id: spelling
       uses: check-spelling/check-spelling@prerelease
       with:
+        config: .github/actions/spell-check
         suppress_push_for_open_pull_request: 1
         post_comment: 0
     - name: store-comment
@@ -89,3 +90,5 @@ jobs:
       uses: actions/checkout@v2
     - name: check-spelling
       uses: check-spelling/check-spelling@prerelease
+      with:
+        config: .github/actions/spell-check
