@@ -1065,7 +1065,6 @@ lhs
 lhwnd
 lia
 LIBID
-licate
 Lifecycle
 LIGHTORANGE
 LIGHTTURQUOISE
@@ -1319,7 +1318,6 @@ NDEBUG
 Ndombe
 ndp
 NEEDDISPATCH
-needinfo
 NESW
 netcore
 netcoreapp
@@ -1678,7 +1676,6 @@ renamable
 RENAMEONCOLLISION
 Renamer
 Reparse
-reportbug
 requery
 requerying
 rescap
@@ -2372,6 +2369,7 @@ YVYU
 Zabaykalsky
 ZEROINIT
 ZIndex
+zipfile
 zonable
 ZONECOLOR
 ZONEHIGHLIGHTCOLOR
