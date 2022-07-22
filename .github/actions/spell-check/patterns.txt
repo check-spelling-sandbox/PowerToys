@@ -107,6 +107,7 @@ http://tes/
 
 # fabricbot.json
 "id": "\S+"
+"commentPattern": ".*"
 
 # acceptable duplicates
 # ls directory listings

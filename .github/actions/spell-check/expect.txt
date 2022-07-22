@@ -392,7 +392,6 @@ dcomp
 dcompi
 DComposition
 ddf
-DDLM
 Deact
 debian
 debugbreak
@@ -977,6 +976,7 @@ IVirtual
 IWbem
 IWIC
 iwindow
+iwr
 IXml
 IYUV
 IZone
@@ -1065,6 +1065,7 @@ lhs
 lhwnd
 lia
 LIBID
+licate
 Lifecycle
 LIGHTORANGE
 LIGHTTURQUOISE
@@ -1291,7 +1292,6 @@ MYTZ
 NAMECHANGE
 nameof
 namespace
-namespaceanddescendants
 Navassa
 naveensrinivasan
 NCACTIVATE
@@ -1319,6 +1319,7 @@ NDEBUG
 Ndombe
 ndp
 NEEDDISPATCH
+needinfo
 NESW
 netcore
 netcoreapp
@@ -1402,6 +1403,7 @@ NUMLOCK
 NUMPAD
 Nunavut
 Nusa
+nushell
 nwc
 NWSE
 Objbase
@@ -1676,6 +1678,7 @@ renamable
 RENAMEONCOLLISION
 Renamer
 Reparse
+reportbug
 requery
 requerying
 rescap
@@ -1725,7 +1728,6 @@ Rsp
 rst
 Rstrtmgr
 RTB
-RTCS
 RTLREADING
 RTSS
 runas
@@ -2077,6 +2079,7 @@ TYPESHORTCUT
 UAC
 UAL
 uap
+ubuntu
 udit
 Udk
 Udmurtia
@@ -2261,6 +2264,7 @@ winexe
 winforms
 winfx
 winget
+wingetcreate
 Winhook
 winkey
 WINL
