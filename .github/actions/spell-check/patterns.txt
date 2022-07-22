@@ -105,6 +105,9 @@ http://tes/
 # tar arguments
 \b(?:\\n|)tar(?:\s+-[a-zA-Z]+|\s[a-z]+)+
 
+# fabricbot.json
+"id": "\S+"
+
 # acceptable duplicates
 # ls directory listings
 # /bin/ls -l output
