@@ -176,6 +176,8 @@ In this release, we focused on new features, stability, optimization improvement
 
 ### Registry Preview
 
+dfgsjkaghsfdkg
+
  - Added "Extended data preview" via magnifier icon and context menu in the Data Grid, enabled easier inspection of complex registry types like REG_BINARY, REG_EXPAND_SZ, and REG_MULTI_SZ, etc. Thanks [@htcfreek](https://github.com/htcfreek)! 
  - Improved file-saving experience in Registry Preview by aligning with Notepad-like behavior, enhancing user prompts, error handling, and preventing crashes during unsaved or interrupted actions. Thanks [@htcfreek](https://github.com/htcfreek)!  
 
