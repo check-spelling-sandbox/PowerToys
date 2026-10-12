@@ -27,6 +27,14 @@
     "cspell1:typescript/typescript.txt",
     "cspell1:npm/npm.txt",
     "cspell1:python/python/python.txt",
+    "cspell1:csharp/csharp.txt",
+    "cspell1:dotnet/dotnet.txt",
+    "cspell1:cpp/compiler-msvc.txt",
+    "cspell1:cpp/stdlib-cmath.txt",
+    "cspell1:lorem-ipsum/dictionary.txt",
+    "cspell1:powershell/powershell.txt",
+    "cspell1:latex/latex.txt",
+    "cspell1:golang/go.txt",
     ""
   ],
   "check_extra_dictionaries": [
