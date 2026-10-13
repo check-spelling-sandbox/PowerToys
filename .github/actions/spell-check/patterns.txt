@@ -1,5 +1,8 @@
 # See https://github.com/check-spelling/check-spelling/wiki/Configuration-Examples:-patterns
 
+# Turkish test
+ımaging
+
 # Automatically suggested patterns
 
 # hit-count: 10467 file-count: 2343
@@ -226,7 +229,7 @@ mailto:[-a-zA-Z=;:/?%&0-9+@._]{3,}
 # mount
 \bmount\s+-t\s+(\w+)\s+\g{-1}\b
 # C types and repeated CSS values
-\s(auto|await|buffalo|center|div|inherit|long|LONG|none|normal|solid|thin|transparent|very)(?:\s\g{-1})+\s
+\s(auto|await|buffalo|center|div|Encoding|inherit|long|LONG|none|normal|solid|thin|transparent|very)(?:\s\g{-1})+\s
 # C enum and struct
 \b(?:enum|struct)\s+(\w+)\s+\g{-1}\b
 # go templates

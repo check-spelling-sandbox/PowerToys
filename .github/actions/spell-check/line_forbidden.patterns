@@ -61,7 +61,7 @@
 
 # Write out small numbers (unless they are code)
 # See https://www.scribendi.com/academy/articles/when_to_spell_out_numbers_in_writing.en.html#:~:text=Writing%20Small%20and%20Large%20Numbers,ten%29%20are%20written%20as%20numerals%2e
-(?<![=>]|depth|frame|page|project|select)\s[1-9] (?!byte|day|hour|meaning|minute|month|(?:new |)page|people|(?:more |)space|year)[a-z]+ [a-z]+\s
+#(?<![=>]|depth|frame|page|project|select)\s[1-9] (?!byte|day|hour|meaning|minute|month|(?:new |)page|people|(?:more |)space|year)[a-z]+ [a-z]+\s
 
 # Write out numbers at the start of a sentence
 # https://www.scribendi.com/academy/articles/when_to_spell_out_numbers_in_writing.en.html#:~:text=Beginning%20a%20Sentence%20with%20a%20Number,may%20be%2e
@@ -121,7 +121,7 @@
 # - Perhaps you're missing a verb between the noun and the second article.
 # - Or, perhaps you should remove the first verb and treat the intervening word as a verb?
 # - In some cases you should add a `,` between the noun and the second article.
-\s(?:an?|the)\s(?!wh|(?:how|priori)\b)[A-Za-z][a-z]+[a-qs-z]\s(?:a(?! (?:bit|chance|few|little|lot|posteriori))n?|the(?! same))\s
+#\s(?:an?|the)\s(?!wh|(?:how|priori)\b)[A-Za-z][a-z]+[a-qs-z]\s(?:a(?! (?:bit|chance|few|little|lot|posteriori))n?|the(?! same))\s
 
 # Should only be one of `a`, `an`, or `the`
 \b(?:(?:a(?! (?:la carte|priori|posteriori))n?|the)\s+){2,}\b
@@ -407,7 +407,7 @@
 
 # Often should be `if`/`when` (or reworded)
 # unless describing exceptional cases (i.e. emergencies)
-(?<!just )\bin case\b(?! (?:I|s?he|they|of|we|you))
+#(?<!just )\bin case\b(?! (?:I|s?he|they|of|we|you))
 
 # Should be `in`
 (?<=\b(?:go|reach) back )into(?= time\b)
@@ -514,13 +514,13 @@ CLoud
 \bgoing to bad(?!-)\b
 
 # Should be `greater than`
-\bhigher than\b(?! ever)
+#\bhigher than\b(?! ever)
 
 # Should be `Homebrew`
 \bHomeBrew\b
 
 # Should be `ID` (unless it's a flag/property/RCS variable)
-(?<![-\.*$])\bId\b(?![(=:])
+#(?<![-\.*$])\bId\b(?![(=:])
 
 # Should be `in front of`
 \bin from of\b
@@ -944,7 +944,7 @@ socio-economic
 \bup side down\b
 
 # Should be `URI` or `uri` unless it refers to a person named `Uri` (or a flag)
-(?<![-\.])\bUri\b(?![(])
+#(?<![-\.])\bUri\b(?![(])
 
 # Should be `uses`
 (?<=[a-z] user )users(?= [a-z])
@@ -1025,7 +1025,7 @@ would'nt
 Whatsapp
 
 # Should probably be `when`/`where` or reworded
-\bat the point\b
+#\bat the point\b
 
 # Should be `whereas`
 \bwhere as\b
@@ -1044,7 +1044,7 @@ Whatsapp
 \bwith out\b(?!-)
 
 # Should be `without ...` / `while missing ...` or reworded
-\bwith missing\b
+#\bwith missing\b
 
 # Should be `wondering`
 \bwandering(?= why)
@@ -1075,17 +1075,17 @@ Whatsapp
 
 # Homoglyph (Cyrillic) should be `A`/`B`/`C`/`E`/`H`/`I`/`I`/`J`/`K`/`M`/`O`/`P`/`S`/`T`/`Y`
 # It's possible that your content is intentionally mixing Cyrillic and Latin scripts, but if it isn't, you definitely want to correct this.
-(?<=[A-Z]{2})[АВСЕНІӀЈКМОРЅТУ]|[АВСЕНІӀЈКМОРЅТУ](?=[A-Z]+(?:\b|[a-z]+)|[a-z]+(?:[^a-z]|$))
+#(?<=[A-Z]{2})[АВСЕНІӀЈКМОРЅТУ]|[АВСЕНІӀЈКМОРЅТУ](?=[A-Z]+(?:\b|[a-z]+)|[a-z]+(?:[^a-z]|$))
 
 # Homoglyph (Cyrillic) should be `a`/`b`/`c`/`e`/`o`/`p`/`x`/`y`
 # It's possible that your content is intentionally mixing Cyrillic and Latin scripts, but if it isn't, you definitely want to correct this.
-[авсеорху](?=[A-Za-z]{2,})|(?<=[A-Za-z]{2})[авсеорху]|(?<=[A-Za-z])[авсеорху](?=[A-Za-z])
+#[авсеорху](?=[A-Za-z]{2,})|(?<=[A-Za-z]{2})[авсеорху]|(?<=[A-Za-z])[авсеорху](?=[A-Za-z])
 
 # Homoglyph (Greek) should be `o`
 [ο](?=[A-Za-z]{2,})|(?<=[A-Za-z]{2})[ο]|(?<=[A-Za-z])[ο](?=[A-Za-z])
 
 # Homoglyph (Turkish) should be `i`
-[ı](?=[A-Za-z]{2,})|(?<=[A-Za-z]{2})[ı]|(?<=[A-Za-z])[ı](?=[A-Za-z])
+#[ı](?=[A-Za-z]{2,})|(?<=[A-Za-z]{2})[ı]|(?<=[A-Za-z])[ı](?=[A-Za-z])
 
 # Should be `neither/nor` -- or reword
 (?<!do )\bnot\b([^.?!"/(](?!neither|,.*?,))+\bnor\b
